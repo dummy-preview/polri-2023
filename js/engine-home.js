@@ -32,7 +32,6 @@ $(document).ready(function() {
     // 
     $("#menu-toggler").click(function() {
         toggleBodyClass("menu-active");
-        $(".home__content--logo").addClass("home-z");
     });
     $(".menu-item").click(function() {
         toggleBodyClass("menu-active");
